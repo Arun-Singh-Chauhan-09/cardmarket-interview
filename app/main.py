@@ -6,6 +6,8 @@ VERSION = os.getenv("APP_VERSION", "dev")
 request_count = 0
 
 
+
+
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         global request_count
